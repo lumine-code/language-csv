@@ -1,0 +1,17 @@
+{
+  "name": "TSV",
+  "scopeName": "source.tsv",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-tsv",
+  "injectionRegex": "^(tsv)$",
+  "fileTypes": ["tsv", "tab"],
+  "treeSitter": {
+    // A sibling grammar in the same upstream repository, so it takes its own
+    // subdirectory and its own wasm — the two parsers differ only in their
+    // delimiter, but a shared build would install one over the other.
+    "parserSource": "github:tree-sitter-grammars/tree-sitter-csv/tsv#v1.2.0",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-tsv/tree-sitter-tsv.wasm",
+    "highlightsQuery": "tree-sitter-tsv/highlights.scm"
+  }
+}
