@@ -1,7 +1,7 @@
 {
   "name": "CSV",
   "scopeName": "source.csv",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-csv",
   "injectionRegex": "^(csv)$",
   "fileTypes": ["csv"],

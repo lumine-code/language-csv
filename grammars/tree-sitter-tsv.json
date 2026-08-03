@@ -1,7 +1,7 @@
 {
   "name": "TSV",
   "scopeName": "source.tsv",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-tsv",
   "injectionRegex": "^(tsv)$",
   "fileTypes": ["tsv", "tab"],
