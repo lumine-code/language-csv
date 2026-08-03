@@ -4,7 +4,7 @@ CSV and TSV language support.
 
 ## Features
 
-- **Grammars**: provides Tree-sitter grammars.
+- **Grammars**: provides Tree-sitter grammars, built from [tree-sitter-csv](https://github.com/tree-sitter-grammars/tree-sitter-csv).
 - **Syntax highlighting**: fields scoped as text, with numbers, floats and booleans told apart.
 - **Delimiters**: separate grammars for comma- and tab-separated files, so a tab is never read as a comma.
 
