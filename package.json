@@ -15,6 +15,10 @@
     "url": "https://github.com/lumine-code/language-csv/issues"
   },
   "license": "MIT",
+  "files": [
+    "grammars",
+    "spec"
+  ],
   "engines": {
     "lumine": "^1.0.0"
   },
