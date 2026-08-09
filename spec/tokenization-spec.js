@@ -3,8 +3,11 @@
 // anything here. Scopes are asserted directly instead.
 
 async function scopesAt(text, grammarScope, position) {
-  const editor = await atom.workspace.open();
-  atom.grammars.assignGrammar(editor.getBuffer(), atom.grammars.grammarForScopeName(grammarScope));
+  const editor = await lumine.workspace.open();
+  lumine.grammars.assignGrammar(
+    editor.getBuffer(),
+    lumine.grammars.grammarForScopeName(grammarScope),
+  );
   editor.setText(text);
   await editor.getBuffer().getLanguageMode().ready;
   return editor.scopeDescriptorForBufferPosition(position).getScopesArray();
@@ -13,12 +16,12 @@ async function scopesAt(text, grammarScope, position) {
 describe("CSV and TSV grammars", () => {
   beforeEach(async () => {
     jasmine.useRealClock();
-    await atom.packages.activatePackage("language-csv");
+    await lumine.packages.activatePackage("language-csv");
   });
 
   it("selects a grammar by file extension", () => {
-    expect(atom.grammars.selectGrammar("data.csv", "").scopeName).toBe("source.csv");
-    expect(atom.grammars.selectGrammar("data.tsv", "").scopeName).toBe("source.tsv");
+    expect(lumine.grammars.selectGrammar("data.csv", "").scopeName).toBe("source.csv");
+    expect(lumine.grammars.selectGrammar("data.tsv", "").scopeName).toBe("source.tsv");
   });
 
   describe("CSV", () => {
