@@ -10,7 +10,7 @@ CSV and TSV language support.
 
 ## Installation
 
-To install `language-csv` search for _language-csv_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-csv`.
+To install `language-csv` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-csv`.
 
 ## Contributing
 
