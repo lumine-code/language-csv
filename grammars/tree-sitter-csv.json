@@ -10,7 +10,7 @@
     // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:tree-sitter-grammars/tree-sitter-csv/csv#v1.2.0",
-    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.13",
     "grammar": "tree-sitter-csv/tree-sitter-csv.wasm",
     "highlightsQuery": "tree-sitter-csv/highlights.scm"
   }
