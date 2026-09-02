@@ -3,7 +3,7 @@
   "scopeName": "source.tsv",
   "type": "tree-sitter",
   "parser": "tree-sitter-tsv",
-  "injectionRegex": "^(tsv)$",
+  "injectionNames": ["tsv"],
   "fileTypes": ["tsv", "tab"],
   "treeSitter": {
     // A sibling grammar in the same upstream repository, so it takes its own
@@ -11,7 +11,7 @@
     // delimiter, but a shared build would install one over the other.
     "parserSource": "github:tree-sitter-grammars/tree-sitter-csv/tsv#v1.2.0",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-tsv/tree-sitter-tsv.wasm",
-    "highlightsQuery": "tree-sitter-tsv/highlights.scm"
+    "grammar": "tsv.wasm",
+    "highlightsQuery": "tsv-highlights.scm"
   }
 }

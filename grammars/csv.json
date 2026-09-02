@@ -3,7 +3,7 @@
   "scopeName": "source.csv",
   "type": "tree-sitter",
   "parser": "tree-sitter-csv",
-  "injectionRegex": "^(csv)$",
+  "injectionNames": ["csv"],
   "fileTypes": ["csv"],
   "treeSitter": {
     // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
@@ -11,7 +11,7 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:tree-sitter-grammars/tree-sitter-csv/csv#v1.2.0",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-csv/tree-sitter-csv.wasm",
-    "highlightsQuery": "tree-sitter-csv/highlights.scm"
+    "grammar": "csv.wasm",
+    "highlightsQuery": "csv-highlights.scm"
   }
 }
