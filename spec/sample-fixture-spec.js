@@ -20,7 +20,7 @@ describe("CSV and TSV sample fixtures", () => {
       await languageMode.ready;
 
       expect(editor.getGrammar().scopeName).toBe(scopeName);
-      expect((await editor.getSyntaxDiagnostics()).hasError).toBe(false);
+      expect(languageMode.tree.rootNode.hasError).toBe(false);
     });
   }
 });
