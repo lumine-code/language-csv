@@ -9,7 +9,7 @@
     // A sibling grammar in the same upstream repository, so it takes its own
     // subdirectory and its own wasm — the two parsers differ only in their
     // delimiter, but a shared build would install one over the other.
-    "parserSource": "github:tree-sitter-grammars/tree-sitter-csv/tsv#v1.2.0",
+    "parserSource": "github:tree-sitter-grammars/tree-sitter-csv/tsv#f6bf6e35eb0b95fbadea4bb39cb9709507fcb181",
     "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "tsv.wasm",
     "highlightsQuery": "tsv-highlights.scm"
