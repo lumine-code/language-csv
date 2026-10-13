@@ -8,6 +8,8 @@ CSV and TSV language support.
 - **Syntax highlighting**: fields scoped as text, with numbers, floats and booleans told apart.
 - **Delimiters**: separate grammars for comma- and tab-separated files, so a tab is never read as a comma.
 
+![CSV syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-csv` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-csv`.

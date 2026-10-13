@@ -1,0 +1,16 @@
+{
+  "title": "language-csv",
+  "description": "CSV syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "e72a5cb27a3e6d2401ad6903a6b522972b63e1f4",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "CSV syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}
