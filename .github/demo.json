@@ -1,16 +1,61 @@
 {
   "title": "language-csv",
-  "description": "CSV syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "e72a5cb27a3e6d2401ad6903a6b522972b63e1f4",
+  "description": "CSV syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "42613c1c7e17d94422b6b3d0467921112376b905",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "84611ffcb68c93fd5b14d7b564a6038079e4a5f6e4df557afad5b4b797bbf2c9",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "c4d7a05fe6960ae6fb041981d6cf13e9c0286b17",
+      "dirty": true,
+      "workingTreeHash": "af0ec098e764416df9522f3c6e555050b520e4700da382b2b983b2ff3742bd0a"
+    },
+    "package": {
+      "revision": "42613c1c7e17d94422b6b3d0467921112376b905",
+      "dirty": true,
+      "workingTreeHash": "385e289bc48fba873fda5ae6cc656e9ae8b59643005a64d440dda0c918504cf2"
+    },
+    "language-csv": {
+      "revision": "42613c1c7e17d94422b6b3d0467921112376b905",
+      "dirty": true,
+      "workingTreeHash": "385e289bc48fba873fda5ae6cc656e9ae8b59643005a64d440dda0c918504cf2"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "25d6ed50595d6b10f7d53e41dbbe8f92dcb5c0e911871356f3e6138e5c76df57"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.csv",
+      "sha256": "4e71d37cb935b9ba35ea41cc2beac4bcc7927dc57b07cae26f63eb46a3e28f70"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "CSV syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "8cffbe30326b6477cf159a5c17e6c7ce1de89d32ef0390e158666318ff3add3e"
     }
   ]
 }
