@@ -1,0 +1,9 @@
+{
+  ".source.csv, .source.tsv": {
+    "editor": {
+      "commentStart": "",
+      "commentEnd": "",
+      "commentDelimiters": {}
+    }
+  }
+}
