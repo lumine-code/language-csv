@@ -2,6 +2,12 @@
 Source: https://github.com/tree-sitter-grammars/tree-sitter-csv
 Revision: f6bf6e35eb0b95fbadea4bb39cb9709507fcb181
 
+Parser source: github:tree-sitter-grammars/tree-sitter-csv/csv#f6bf6e35eb0b95fbadea4bb39cb9709507fcb181
+Resolved commit: f6bf6e35eb0b95fbadea4bb39cb9709507fcb181
+
+Parser source: github:tree-sitter-grammars/tree-sitter-csv/tsv#f6bf6e35eb0b95fbadea4bb39cb9709507fcb181
+Resolved commit: f6bf6e35eb0b95fbadea4bb39cb9709507fcb181
+
 Original file: LICENSE
 
 The MIT License (MIT)
